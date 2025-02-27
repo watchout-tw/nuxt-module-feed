@@ -206,6 +206,23 @@ pnpm run test:watch
 pnpm run release
 ```
 
+## How to Package
+
+```bash
+# Install dependecies
+npm install
+
+# Generate type stubs
+npm run dev:prepare
+
+# Generate the package
+npm run prepack
+
+# Publish the package
+npm pack
+
+```
+
 <!-- Badges -->
 
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-module-feed/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
